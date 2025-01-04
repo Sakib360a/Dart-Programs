@@ -22,8 +22,6 @@ int binarySearch(List<int> list, int item) {
 }
 
 void main() {
-  print("Enter the number of elements: ");
-  int n = int.parse(stdin.readLineSync()!);
 
   print("Enter the elements: ");
   List<int> arr = stdin.readLineSync()!.split(' ').map(int.parse).toList();

@@ -1,10 +1,16 @@
 import 'dart:io';
 
+import 'staticFunction.dart';
+class Check
+{
+  Add()
+  {
+    Test.sum(100, 200);
+  }
+}
 void main()
 {
-  stdout.write("Enter first number: ");
-  int a = int.parse(stdin.readLineSync()!);
-  stdout.write("Enter second number: ");
-  int b = int.parse(stdin.readLineSync()!);
-  print("Sum of $a and $b is ${a.toDouble() + b.toDouble()}");
+  Check t=Check();
+  stdout.write("This is a static function: test from staticFunction.dart: \n");
+  t.Add();
 }

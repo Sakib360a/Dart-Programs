@@ -1,5 +1,4 @@
-import 'dart:io';
-
+// Code to demonstrate different loops in Dart
 void main()
 {
   for(int i=1;i<=5;i++)
